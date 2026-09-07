@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Properties for Sale &amp; Rent — Pearl Heights Properties</title>
+<meta name="description" content="Browse property listings for sale and rent in Kampala and Wakiso, Uganda, with Pearl Heights Properties.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Ccircle cx='13' cy='13' r='12' fill='%230B2540'/%3E%3Ctext x='13' y='18' font-size='14' text-anchor='middle' fill='%23D8B968' font-family='serif'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="mark">P</span>Pearl Heights Properties</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="properties.html" class="active">Properties</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="contact.html">Book a Viewing</a>
+      <button class="burger-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Listings</div>
+    <h1>Properties for sale &amp; rent</h1>
+    <p>Filter by location and type to find what fits — message us on WhatsApp for anything not listed yet.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="filters">
+      <select id="filterType"><option value="all">All Types</option><option value="sale">For Sale</option><option value="rent">For Rent</option></select>
+      <select id="filterLoc"><option value="all">All Locations</option><option value="Kololo">Kololo</option><option value="Naguru">Naguru</option><option value="Muyenga">Muyenga</option><option value="Kira">Kira, Wakiso</option></select>
+      <select id="filterProp"><option value="all">All Property Types</option><option value="Villa">Villa</option><option value="Apartment">Apartment</option><option value="Bungalow">Bungalow</option><option value="Studio">Studio</option></select>
+    </div>
+
+    <div class="listings-grid" id="listingsGrid">
+      <div class="listing-card" data-type="sale" data-loc="Kololo" data-prop="Villa">
+        <div class="listing-thumb">
+          <span class="listing-badge">For Sale</span>
+          <img referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="Villa in Kololo">
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">UGX 850,000,000</div>
+          <div class="listing-title">4-Bedroom Villa</div>
+          <div class="listing-loc">📍 Kololo, Kampala</div>
+          <div class="listing-specs"><span>4 bed</span><span>4 bath</span><span>Villa</span></div>
+          <div class="listing-actions">
+            <a href="property-details.html" style="background:var(--navy); color:#fff;">View Details</a>
+            <a href="contact.html" style="background:var(--gold); color:var(--navy);">Book Viewing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="listing-card" data-type="rent" data-loc="Naguru" data-prop="Apartment">
+        <div class="listing-thumb">
+          <span class="listing-badge rent">For Rent</span>
+          <img referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1629257668721-9872756e6266?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="Apartment in Naguru">
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">UGX 3,500,000 <span>/ month</span></div>
+          <div class="listing-title">2-Bedroom Apartment</div>
+          <div class="listing-loc">📍 Naguru, Kampala</div>
+          <div class="listing-specs"><span>2 bed</span><span>2 bath</span><span>Apartment</span></div>
+          <div class="listing-actions">
+            <a href="property-details.html" style="background:var(--navy); color:#fff;">View Details</a>
+            <a href="contact.html" style="background:var(--gold); color:var(--navy);">Book Viewing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="listing-card" data-type="sale" data-loc="Kira" data-prop="Bungalow">
+        <div class="listing-thumb">
+          <span class="listing-badge">For Sale</span>
+          <img referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1721222204126-e7042f2893b1?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="Bungalow in Kira, Wakiso">
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">UGX 320,000,000</div>
+          <div class="listing-title">3-Bedroom Bungalow</div>
+          <div class="listing-loc">📍 Kira, Wakiso</div>
+          <div class="listing-specs"><span>3 bed</span><span>2 bath</span><span>Bungalow</span></div>
+          <div class="listing-actions">
+            <a href="property-details.html" style="background:var(--navy); color:#fff;">View Details</a>
+            <a href="contact.html" style="background:var(--gold); color:var(--navy);">Book Viewing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="listing-card" data-type="rent" data-loc="Muyenga" data-prop="Studio">
+        <div class="listing-thumb">
+          <span class="listing-badge rent">For Rent</span>
+          <img referrerpolicy="no-referrer" src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?fm=jpg&q=80&w=700&auto=format&fit=crop" alt="Studio in Muyenga">
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">UGX 1,200,000 <span>/ month</span></div>
+          <div class="listing-title">Studio Apartment</div>
+          <div class="listing-loc">📍 Muyenga, Kampala</div>
+          <div class="listing-specs"><span>1 bed</span><span>1 bath</span><span>Studio</span></div>
+          <div class="listing-actions">
+            <a href="property-details.html" style="background:var(--navy); color:#fff;">View Details</a>
+            <a href="contact.html" style="background:var(--gold); color:var(--navy);">Book Viewing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="photo-note" id="noResults" style="display:none;">No properties match those filters right now — message us on WhatsApp and we'll help you find one.</p>
+    <p class="photo-note">Photos shown are representative free-license stock images.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">Pearl Heights Properties</div>
+        <p style="margin-top:12px; max-width:32ch; opacity:0.75; font-size:0.92rem;">Buy, rent, sell, and manage residential property across Kampala and Wakiso, Uganda.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <div class="foot-links">
+          <a href="index.html">Home</a>
+          <a href="properties.html">Properties</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <div class="foot-links">
+          <a href="tel:+256754544803">0754 544 803</a>
+          <a href="mailto:xxander.webdev.@gmail.com">xxander.webdev.@gmail.com</a>
+          <a href="https://wa.me/256754544803" target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Pearl Heights Properties. Fictional demo business — all listings and pricing shown for illustration only. Stock photos via Unsplash (free license).</div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/256754544803" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 26 26"><path d="M2 24l2.2-6.4A9.5 9.5 0 112 24z" fill="#fff"/></svg>
+</a>
+
+<script src="script.js"></script>
+<script>
+  function applyFilters(){
+    var type=document.getElementById('filterType').value;
+    var loc=document.getElementById('filterLoc').value;
+    var prop=document.getElementById('filterProp').value;
+    var cards=document.querySelectorAll('#listingsGrid .listing-card');
+    var visible=0;
+    cards.forEach(function(c){
+      var match=(type==='all'||c.dataset.type===type) && (loc==='all'||c.dataset.loc===loc) && (prop==='all'||c.dataset.prop===prop);
+      c.style.display = match ? '' : 'none';
+      if(match) visible++;
+    });
+    document.getElementById('noResults').style.display = visible===0 ? 'block' : 'none';
+  }
+  ['filterType','filterLoc','filterProp'].forEach(function(id){
+    document.getElementById(id).addEventListener('change', applyFilters);
+  });
+</script>
+</body>
+</html>
